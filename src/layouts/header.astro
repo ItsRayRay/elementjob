@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+
+import Navigation from '@components/Navigation.astro';
+
+export interface Props {
+  activeNav?: "about" | "industry" | "contact" | "expertise" | "resources" | "news";
+}
+
+const allIndustriesEntries = await getCollection('industries', ({ data }) => {
+  return data.draft !== true;
+});
+
+const { activeNav } = Astro.props;
+---
+
+<Navigation>
+  <li class="group">
+    <a href="/about" class={`menu-item ${activeNav === "about" ? "text-primary" : ""}`}>Over ons</a>
+    {activeNav === "about" ? (
+      <span class='lg:block lg:h-1 lg:w-full lg:bg-blue-500 lg:scale-x-50' />
+    ) : (
+      <span class='lg:block lg:h-1 transition-transform lg:w-full group-hover:lg:bg-blue-500 group-hover:lg:scale-x-50' />
+    )}
+  </li>
+  <li class="dropdown group">
+    <a href="/industry" class={`menu-item ${activeNav === "industry" ? "text-primary" : ""} block transition duration-150 ease-in-out`} aria-haspopup="true">
+      Diensten & Expertise  
+    </a>
+    {activeNav === "industry" ? (
+      <span class='lg:block lg:h-1 lg:w-full lg:bg-blue-500 lg:scale-x-50' />
+    ) : (
+      <span class='lg:block lg:h-1 transition-transform lg:w-full group-hover:lg:bg-blue-500 group-hover:lg:scale-x-50' />
+    )}
+    <ul class="dropdown-menu" aria-labelledby="menu-button" role="menu">
+      <div class="py-1" role="none">
+        {allIndustriesEntries.map((d) => (
+          <li role="menuitem" tabindex="-1">
+            <a class="dropdown-item" href={`/industry/${d.slug}`}>
+              {d.data.title}
+            </a>
+          </li>
+        ))}
+      </div>
+    </ul>
+  </li>
+  <li class="group">
+    <a href="/news" class={`menu-item ${activeNav === "news" ? "text-primary" : ""}`}>Nieuws</a>
+    {activeNav === "news" ? (
+      <span class='lg:block lg:h-1 lg:w-full lg:bg-blue-500 lg:scale-x-50' />
+    ) : (
+      <span class='lg:block lg:h-1 transition-transform lg:w-full group-hover:lg:bg-blue-500 group-hover:lg:scale-x-50' />
+    )}
+  </li>
+</Navigation>
+
+<style>
+
+
+  .menu-item {
+    @apply text-sm font-semibold leading-6 text-gray-900 hover:text-primary;
+  }
+  .dropdown {
+    @apply min-w-min relative block;
+  }
+
+  .menu-item:hover,
+  .menu-item.text-primary {
+    color: rgb(255, 102, 0); /* Orange color */
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    @apply lg:block lg:absolute;
+  }
+  .dropdown-menu {
+    @apply lg:backdrop-blur-md lg:w-full lg:rounded lg:absolute lg:z-10 lg:hidden font-medium lg:bg-white/90 drop-shadow-xl;
+    @apply lg:ring-1 lg:ring-black lg:ring-opacity-5 lg:focus:outline-none;
+    @apply lg:divide-y divide-gray-100;
+  }
+  .dropdown-item {
+    @apply block text-sm font-medium leading-6 text-gray-900 px-4 py-2;
+  }
+  
+  .menu-item:hover {
+    color: rgb(255, 102, 0);
+  }
+
+
+</style>

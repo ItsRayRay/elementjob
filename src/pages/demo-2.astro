@@ -1,0 +1,50 @@
+---
+import { CONFIG } from 'site.config.mjs';
+// Component Imports
+import Grid from '@components/Grid.astro';
+import Glow from '@components/Glow.astro';
+import Hero from '@components/homepage-1/Hero.astro';
+import About from '@components/homepage-2/About.astro';
+import InnovationIndustries from '@components/homepage-1/InnovationIndustries.astro';
+import News from '@components/homepage-1/News.astro';
+import Consult from '@components/homepage-1/Consult.astro';
+import Partners from '@components/homepage-1/Partners.astro';
+import Footer from '@layouts/footer.astro';
+import "@styles/base.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{CONFIG.SITE_NAME}</title>
+		<meta name="description" content={CONFIG.SITE_DESCRIPTION} />
+    <meta property="og:title" content={CONFIG.SITE_NAME} />
+    <meta property="og:description" content={CONFIG.SITE_DESCRIPTION} />
+		<meta property="og:url" content={CONFIG.SITE_URL} />
+	</head>
+
+	<body>
+		<div class="bg-slate-900">
+			<div class="relative">
+				<div class="absolute inset-0 overflow-hidden z-0">
+					<Grid />
+					<Glow />
+				</div>
+				<Hero />
+			</div>
+			<About
+				numOfClients="20+"
+				numOfProjects="100+"
+				srcPicture="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80"
+			/>
+			<InnovationIndustries />
+			<News />
+			<Consult />
+			<Partners />
+			<Footer />
+		</div>
+	</body>
+</html>
