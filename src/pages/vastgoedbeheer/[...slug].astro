@@ -5,7 +5,7 @@ import Grid from '@components/industry/Grid.astro';
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const entries = await getCollection('industries');
+  const entries = await getCollection('vastgoedbeheer');
   return entries.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
@@ -20,7 +20,7 @@ const seo = {
 }
 ---
 
-<Layout content={seo} activeNav="industry">
+<Layout content={seo} activeNav="technisch-reinigen">
   <div class="absolute inset-0 -z-10">
     <div class="relative isolate inset-0 w-full h-full overflow-hidden">
       <Grid />
@@ -29,7 +29,7 @@ const seo = {
   <div class="relative overflow-hidden py-24 sm:py-32">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-2xl lg:mx-0 pl-6 lg:pl-8">
-        <a href="/industry" class="text-lg font-semibold leading-8 tracking-tight text-primary">INDUSTRIAL</a>
+        <a href="/industry" class="text-lg font-semibold leading-8 tracking-tight text-primary">Vastgoedbeheer</a>
         <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{entry.data.title}</h1>
       </div>
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-y-10 lg:gap-y-16 gap-x-8 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
