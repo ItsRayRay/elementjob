@@ -4,10 +4,6 @@ import { CONFIG } from 'site.config.mjs';
 
 import SocialMedia from "@components/socialMedia.astro";
 
-const allIndustriesEntries = await getCollection('', ({ data }) => {
-  return data.draft !== true;
-});
-
 
 
 ---
