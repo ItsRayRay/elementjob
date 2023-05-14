@@ -7,10 +7,13 @@ import sitemap from "@astrojs/sitemap";
 import { CONFIG } from './site.config.mjs';
 import compress from "astro-compress";
 import react from "@astrojs/react";
+import storyblok from '@storyblok/astro';
+import { loadEnv } from 'vite';
+
+const env = loadEnv("", process.cwd(), 'STORYBLOK');
 
 const whenExternalScripts = (items = []) => CONFIG.googleAnalyticsId ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
 
-// https://astro.build/config
 export default defineConfig({
   site: CONFIG.SITE_URL,
   markdown: {
@@ -33,6 +36,15 @@ export default defineConfig({
     })),
     sitemap(),
     compress(),
-    react()
+    react(),
+    storyblok({
+      accessToken: env.STORYBLOK_TOKEN,
+      components: {
+        // Add your Storyblok components here
+      },
+      apiOptions: {
+        region: 'us', // optional, or 'eu' (default)
+      },
+    })
   ]
 });
