@@ -40,7 +40,7 @@ export const CONFIG = {
   },
   social: {
     facebook: 'https://www.facebook.com',
-    instagram: 'https://www.instagram.com',
+    instagram: 'https://www.instagram.com/elementjob',
     twitter: 'https://twitter.com/',
     tiktok: 'https://www.tiktok.com',
   }
