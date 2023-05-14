@@ -5,7 +5,7 @@ import Grid from '@components/industry/Grid.astro';
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const entries = await getCollection('industries');
+  const entries = await getCollection('technisch-reinigen');
   return entries.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
