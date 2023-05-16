@@ -2,22 +2,26 @@
 draft: false
 # layout: @layouts/IndustryPageLayout.astro
 title: Airconditioning
-description: In extreme conditions of construction and aggregate environments, our range of engine, hydraulic, compressor and bulk filters provides superior protection.
+description: Professioneel technisch reinigen van airconditioningapparatuur, inductieunits, fancoilunits en luchtgordijnen. Verbeter de luchtkwaliteit en verleng de levensduur van uw airconditioningsysteem. 
 thumbnail: https://images.unsplash.com/photo-1605910347035-59a2b94f2061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=818&q=80
 ---
 
-# Hi there!
+Professioneel technisch reinigen van airconditioningapparatuur, inductieunits, fancoilunits en luchtgordijnen is een specialiteit van C&R Group. Onze deskundige reinigingsdiensten verbeteren niet alleen de luchtkwaliteit, maar verlengen ook de levensduur van uw airconditioningsysteem.
 
-This Markdown file creates a page at `your-domain.com/industries/construction`
+Waar komt de vervuiling vandaan?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, nisi recusandae? Quidem dignissimos nobis, dicta unde, aperiam voluptate autem iste reprehenderit, aliquam ducimus illo ea ipsum qui animi sequi. Numquam.
+Airconditioners raken snel vervuild doordat er voortdurend lucht circuleert door verschillende componenten. Dit trekt snel bacteriën en schimmels aan, wat uiteindelijk een negatieve invloed heeft op de gezondheid van degenen die deze lucht inademen. Verhoogd ziekteverzuim is een veelvoorkomend gevolg. Daarnaast leidt vervuiling van airconditioners tot een verhoogd energieverbruik bij het handhaven van de gewenste kamertemperatuur. In extreme gevallen kan de airconditioner zelfs niet meer de gewenste temperatuur bereiken.
 
-It probably isn't styled much, but Markdown does support:
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
+Voordelen van professioneel technisch reinigen:
 
-Vel tempore rem omnis esse officiis optio, explicabo, quod deleniti adipisci ullam cum necessitatibus eius minus vero saepe ad, dicta rerum praesentium deserunt illo itaque odio corrupti voluptatum quibusdam. Pariatur. Porro neque tempore, illum eligendi deleniti iure dolorem amet magnam at dolores veniam nemo cumque aut alias repellat est dicta sit repellendus facilis officia? Minima dolorum quo ducimus adipisci perferendis.
+- Verbeterde luchtkwaliteit in werkomgevingen en leefruimtes;
+- Verlengde levensduur van uw airconditioningsysteem;
+- Verminderd energieverbruik;
+- Frisse en gezonde lucht;
+- Preventie van bacteriegroei en schimmelvorming.
 
-Quis distinctio tempora sequi sit repudiandae cumque nostrum deserunt, voluptatibus rem eum fuga modi beatae cum ullam delectus dicta atque eius nam quos corporis. Animi praesentium quae nobis. Odit, mollitia. Voluptatum, hic explicabo. Ex accusamus ipsa ea dolor commodi quas esse ipsum alias et adipisci error necessitatibus atque facere rerum ratione consequatur aspernatur repudiandae minima consectetur fuga, doloremque dolorum pariatur. Ipsam error eaque velit possimus porro eum quod illo iusto officia magnam magni, beatae nisi voluptate praesentium? Saepe distinctio adipisci quas hic quae facilis? Sequi eum hic aperiam impedit minus?
+Bij Elementjob zorgen we ervoor dat uw werkplek schoon en netjes wordt achtergelaten. Bovendien voorzien we uw installatie van een duidelijke sticker waarop de datum van de laatste reiniging vermeld staat.
+
+Flexibiliteit op maat
+
+Indien gewenst kunnen onze werkzaamheden 's nachts of in het weekend worden uitgevoerd, zodat deze niet interfereren met het gebruik van de betreffende ruimtes. Neem contact op met ons voor meer informatie.

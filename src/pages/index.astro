@@ -1,27 +1,18 @@
 ---
 import { CONFIG } from 'site.config.mjs';
-import "@styles/base.css";
+// Component Imports
 import Grid from '@components/Grid.astro';
 import Glow from '@components/Glow.astro';
-import Logo from '@components/Logo.astro';
+import Hero from '@components/homepage-1/Hero.astro';
+import InnovationIndustries from '@components/homepage-1/InnovationIndustries.astro';
+import WhoWeAre from '@components/homepage-1/WhoWeAre.astro';
+import News from '@components/homepage-1/News.astro';
+import Consult from '@components/homepage-1/Consult.astro';
+import Partners from '@components/homepage-1/Partners.astro';
+import Footer from '@layouts/footer.astro';
+import "@styles/base.css";
+import Header from '@layouts/header.astro'
 
-const title = `${CONFIG.SITE_NAME} is versatile UI Kit for industrial or factory website`;
-const description = 'Versatile Business Astro Theme tailored for industrial or factory website';
-const ogImg = 'https://raw.githubusercontent.com/mcstech/.github/main/resources/industronix/My%20Theme%20Image.png';
-const features = [
-	{
-		heading: '15+',
-		description: 'Ready made demo pages',
-	},
-	{
-		heading: '50+',
-		description: 'Crafted sections',
-	},
-	{
-		heading: '100+',
-		description: 'Reusable Components',
-	},
-]
 ---
 
 <html lang="en">
@@ -30,54 +21,22 @@ const features = [
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-    <meta name="title" content={title} />
-    <meta name="description" content={description} />
-    <meta name="author" content="McsTechMY" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-		<meta property="og:url" content={CONFIG.SITE_URL} />
-		<meta property="og:image" content={ogImg} />
-
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content={description} />
-		<meta property="twitter:image" content={ogImg} />
-		<meta property="twitter:url" content={CONFIG.SITE_URL} />
+		<title>{CONFIG.SITE_NAME}</title>
 	</head>
 
 	<body>
-    <div class="bg-slate-900">
-      <div class="relative">
-				<div class="absolute inset-0 overflow-hidden -z-10">
+		<Header/>
+		<div class="bg-slate-900">
+			<div class="relative">
+				<div class="absolute inset-0 overflow-hidden z-0">
 					<Grid />
 					<Glow />
 				</div>
-        <div class="grid place-items-center content-center h-screen z-10">
-          <Logo />
-          <p class="text-center text-gray-200 pt-12">{description}</p>
-					<div class="hidden lg:grid lg:grid-cols-3 lg:gap-8 lg:pt-12">
-						{features.map((f) => (
-							<div class="relative rounded-xl p-6 text-sm leading-6 transition">
-								<div class="flex gap-2 transition [&:not(:focus-visible)]:focus:outline-none">
-									<span class="absolute inset-0 rounded-xl" />
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-emerald-200">
-										<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
-									</svg>								
-									<span class="font-bold text-xl text-rose-500">{f.heading}</span>
-								</div>
-								<p class="mt-1 text-xs text-neutral-200 pl-8">{f.description}</p>
-							</div>
-						))}
-					</div>
-          <div class="mt-6 mb-10 flex items-center justify-center space-x-6">
-						<a href="https://mcstech.lemonsqueezy.com/checkout/buy/e1b2fbf8-9838-466d-8695-0b80a1793cb6?embed=1&media=0&logo=0&desc=0" class="text-base hover:text-primary active:text-white border-2 border-rose-400 duration-200 focus-visible:outline-2 focus-visible:outline-rose-50 focus-visible:outline-offset-2 focus:outline-none font-normal group hover:bg-transparent hover:border-white inline-flex items-center justify-center rounded-full text-white bg-white/5 px-6 py-1 lemonsqueezy-button">Buy</a>
-						<a href="/all-pages" class="text-gray-100 border-0 px-4 py-5">Demo</a>
-            <a href="/docs" class="text-gray-100 border-0 px-4 py-5">Documentation</a>
-          </div>
-        </div>
-      </div>
-    </div>
+				<Hero />
+			</div>
+			<InnovationIndustries />
+
+			<Footer />
+		</div>
 	</body>
-	<script is:inline src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
 </html>

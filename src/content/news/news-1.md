@@ -1,27 +1,29 @@
 ---
 draft: false
-title: Industronix Celebrates Grand Opening of New Plant in Selangor, Malaysia
-date: 2022-11-07 15:39
-source: Reuters
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, nisi recusandae? Quidem dignissimos nobis, dicta unde, aperiam voluptate autem iste reprehenderit, aliquam ducimus illo ea ipsum qui animi sequi. Numquam.
-thumbnail: https://images.unsplash.com/photo-1653669487003-7d89b2020f3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+title: Legionellapreventie Hoe voorkomt u een uitbraak?
+date: 2023-15-05 15:39
+source: Blog
+description:  In Nederland zijn er jaarlijks enkele tientallen uitbraken van legionella. Hoe kunt u een uitbraak voorkomen? Lees hier meer over legionellapreventie.
+thumbnail: https://images.pexels.com/photos/2339722/pexels-photo-2339722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 category: MOU
 tags:
-  - acquisitions
-  - expansion
-  - kicked-off
+ - legionella
+ - preventie
+ - gezondheid
 ---
 
-### Industronix Celebrates Grand Opening of New Plant in Selangor, Malaysia
+### Legionellapreventie: Hoe voorkomt u een uitbraak?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, nisi recusandae? Quidem dignissimos nobis, dicta unde, aperiam voluptate autem iste reprehenderit, aliquam ducimus illo ea ipsum qui animi sequi. Numquam.
+Jaarlijks vinden er in Nederland enkele tientallen uitbraken van legionella plaats. De bacterie kan longontsteking veroorzaken en kan zelfs dodelijk zijn voor mensen met een zwakke gezondheid. Het is daarom belangrijk om maatregelen te treffen om een uitbraak te voorkomen.
 
-It probably isn't styled much, but Markdown does support:
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
+Maar hoe kunt u legionella voorkomen? Allereerst is het belangrijk om te weten dat legionella zich vooral in stilstaand water kan ontwikkelen, bijvoorbeeld in waterleidingen die niet vaak genoeg gebruikt worden. Hieronder vindt u een aantal tips om een uitbraak te voorkomen:
 
-Vel tempore rem omnis esse officiis optio, explicabo, quod deleniti adipisci ullam cum necessitatibus eius minus vero saepe ad, dicta rerum praesentium deserunt illo itaque odio corrupti voluptatum quibusdam. Pariatur. Porro neque tempore, illum eligendi deleniti iure dolorem amet magnam at dolores veniam nemo cumque aut alias repellat est dicta sit repellendus facilis officia? Minima dolorum quo ducimus adipisci perferendis.
+Spoel leidingen door: spoel leidingen regelmatig door, bijvoorbeeld na een vakantieperiode of na langdurige afwezigheid van een gebouw. Zo voorkomt u dat stilstaand water legionella kan ontwikkelen.
 
-Quis distinctio tempora sequi sit repudiandae cumque nostrum deserunt, voluptatibus rem eum fuga modi beatae cum ullam delectus dicta atque eius nam quos corporis. Animi praesentium quae nobis. Odit, mollitia. Voluptatum, hic explicabo. Ex accusamus ipsa ea dolor commodi quas esse ipsum alias et adipisci error necessitatibus atque facere rerum ratione consequatur aspernatur repudiandae minima consectetur fuga, doloremque dolorum pariatur. Ipsam error eaque velit possimus porro eum quod illo iusto officia magnam magni, beatae nisi voluptate praesentium? Saepe distinctio adipisci quas hic quae facilis? Sequi eum hic aperiam impedit minus?
+Regelmatige controle: laat waterinstallaties en -systemen regelmatig controleren op aanwezigheid van legionella. Zo kunt u tijdig ingrijpen en een uitbraak voorkomen.
+
+Temperatuurbeheersing: zorg ervoor dat het water in uw leidingen niet tussen de 25 en 55 graden Celsius komt. Bij deze temperaturen kan legionella namelijk goed groeien.
+
+Legionellabestrijding: laat bij een besmetting met legionella de leidingen grondig reinigen en desinfecteren. Zo voorkomt u verdere verspreiding van de bacterie.
+
+Het nemen van deze maatregelen kan helpen om een uitbraak van legionella te voorkomen. Neem daarom contact op met een professioneel legionellapreventiebedrijf om te kijken hoe u uw waterinstallaties en -systemen kunt beschermen tegen legionella. Zo zorgt u ervoor dat uw gebouw veilig is voor de gebruikers en voorkomt u verdere verspreiding van de bacterie.

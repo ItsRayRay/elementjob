@@ -8,7 +8,7 @@ const sections = [
     title: 'Main',
   },
   { id: 'features-panel-2', title: 'Market Specific Solution' },
-  { id: 'features-panel-3', title: 'Newsss' },
+  { id: 'features-panel-3', title: 'News' },
 ]
 
 function MenuIcon({ open, ...props }: { open: boolean } & React.SVGProps<SVGSVGElement>) {
