@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import { CONFIG } from 'site.config.mjs';
 import Layout from '@layouts/main.astro';
-import Partners from '@components/homepage-1/Partners.astro';
 
 const seo = {
 	title: `Technisch reinigen | ${CONFIG.SITE_NAME}`,
@@ -25,7 +24,7 @@ const technischReinigenEntries = await getCollection('technisch-reinigen', ({ da
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 group-hover/item:via-gray-900/50" />
             <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
             <h3 class="text-lg font-semibold text-white">
-              <a class="group-hover/item:text-primary" href={`/industry/${d.slug}`}>{d.data.title}</a>
+              <a class="group-hover/item:text-primary" href={`/technisch-reinigen/${d.slug}`}>{d.data.title}</a>
             </h3>
             <p class="hidden md:block mt-2 text-sm text-gray-300">{d.data.description}</p>
           </article>
@@ -33,5 +32,4 @@ const technischReinigenEntries = await getCollection('technisch-reinigen', ({ da
       </div>
     </div>
   </div>
-  <Partners />
 </Layout>

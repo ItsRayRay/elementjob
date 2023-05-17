@@ -13,7 +13,7 @@ const vastgoedBeheerEntries = await getCollection('vastgoedbeheer', ({ data }) =
 });
 ---
 
-<Layout content={seo} activeNav="industry">
+<Layout content={seo} activeNav="vastgoedbeheer">
   <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="relative isolate overflow-hidden px-6 py-24 text-center sm:px-16">
       <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">Vastgoedbeheer</h2>
@@ -24,7 +24,7 @@ const vastgoedBeheerEntries = await getCollection('vastgoedbeheer', ({ data }) =
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 group-hover/item:via-gray-900/50" />
             <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
             <h3 class="text-lg font-semibold text-white">
-              <a class="group-hover/item:text-primary" href={`/industry/${d.slug}`}>{d.data.title}</a>
+              <a class="group-hover/item:text-primary" href={`/vastgoedbeheer/${d.slug}`}>{d.data.title}</a>
             </h3>
             <p class="hidden md:block mt-2 text-sm text-gray-300">{d.data.description}</p>
           </article>
